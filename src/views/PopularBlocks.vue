@@ -30,7 +30,7 @@
                                             style="width: 50px; text-align: center;">
                                             {{ index + 1 }}
                                         </div>
-                                        <div class="location-infos" style="margin-left: 50px;">
+                                        <div class="location-infos">
                                             <v-list-item-subtitle>{{ location.category }}</v-list-item-subtitle>
                                             <v-list-item-title>{{ location.placeName }}</v-list-item-title>
                                         </div>
@@ -271,7 +271,6 @@ export default {
 .location-number {
     font-size: 24px;
     font-weight: bold;
-    margin-right: 10px;
 }
 
 /* 특별 숫자 스타일 (1, 2, 3 강조) */
