@@ -885,6 +885,7 @@ const toggleMenu = () => {
 
 .block-location {
   font-size: 13px;
+  text-align: left;
 }
 
 .block-heart {
