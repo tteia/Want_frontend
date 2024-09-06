@@ -264,7 +264,6 @@ export default {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 16px;
     /* 여백을 추가 */
 }
 
